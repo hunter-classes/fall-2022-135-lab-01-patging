@@ -25,10 +25,8 @@ int main()
 
 	if (num1 > num2) { // num1 is greater than num two print num 2
 		std::cout << "The smaller of the two is  " << num2 << std::endl;
-	} else if (num1 < num2) {
+	} else{ // num2 > num1
 		std::cout << "The smaller of the two is " << num1 << std::endl;
-	} else { // if they're equal?
-		std::cout << "The numbers are equal " << std::endl;;
 	}
 
 	return 0;
